@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ella's Printing Press</title>
+  
+</head>
+<style>
+    /* Reset some default styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background: linear-gradient(180deg, rgb(122, 74, 14) 0%, rgb(245, 62, 113) 50%, rgb(162, 27, 27) 100%);
+}
+
+header {
+  background-color: yellow;
+  padding: 20px;
+}
+
+h1 {
+  color: black;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: 'Times New Roman', serif;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+#home {
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.container {
+  padding: 40px;
+  text-align: center;
+}
+
+.container h2 {
+  color: black;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.container p {
+  color: black;
+}
+
+.service {
+  margin-bottom: 30px;
+}
+
+.service h3 {
+  color: black;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.service p {
+  color: black;
+}
+
+footer {
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  color: #888;
+  font-size: 14px;
+}
+
+/* Additional styling for responsiveness */
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .container {
+    padding: 20px;
+  }
+}
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+            
+  }
+  .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 50px; /* Adjust the height as needed */
+      margin-right: 10px;
+    }
+
+</style>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="C:\Users\Michaella\OneDrive\Pictures\logo.png" alt="Ella's Printing Press Logo">
+        <h1>Ella's Printing Press</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="Activities.html">Activities</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div>
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="C:\Users\Michaella\Videos\video\backgroundvideo.mp4" type="video/mp4">
+        </video>
+    </div>
+    <section id="home">
+      <div class="hero-text">
+        <h2>Welcome to Ella's Printing Press</h2>
+        <p>Your one-stop destination for high-quality printing services</p>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>About Ella's Printing Press</h2>
+        <p>We are a dedicated printing shop committed to delivering exceptional printing services to our clients. With our state-of-the-art equipment and skilled team, we ensure the highest quality output for all your printing needs.</p>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <h2>Our Some Services...</h2>
+        <div class="service">
+          <h3>Tarpaulin</h3>
+          <p>Create stunning and durable tarpaulin designs for your events or promotions.</p>
+        </div>
+        <div class="service">
+          <h3>Sticker</h3>
+          <p>Get custom-made stickers for branding, marketing, or personal use.</p>
+          <p>For more info, check the Activities above...</p>
+        </div>
+        <!-- Add more service items as needed -->
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <h4>mikayoribiana@gmail.com</h4>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
